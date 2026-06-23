@@ -24,12 +24,11 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
-section{
+.hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 10%;
-    background-color: #fcf8f2;
     font-size: large;
 }
 .order-btn{
@@ -71,4 +70,21 @@ background-color: #74371b;
     height: auto;
     border-radius: 8%;
     object-fit: contain;
+}
+.Features{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    gap: 20px;
+}
+.imag{
+    position: relative;
+    display: inline-block;
+    margin: 30px auto ;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.imag img{
+    width: 500px;
+    height: 400px;
+    display: block;
 }
