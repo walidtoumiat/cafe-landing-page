@@ -75,6 +75,8 @@ background-color: #74371b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     gap: 20px;
+    margin-left: 10px;
+    padding: 10px 0;
 }
 .About-Us{
     display: flex;
@@ -89,7 +91,7 @@ background-color: #74371b;
 }
 .imag img{
     width: 500px;
-    height: 400px;
+    height: 480px;
     display: block;
 }
 .about {
@@ -102,4 +104,9 @@ background-color: #74371b;
 .about img{
     width: 100%;
     height: 20%;
+    border-radius: 12px;
+}
+.location-time{
+    display: flex;
+    align-items: baseline;
 }
